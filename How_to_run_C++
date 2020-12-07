@@ -1,0 +1,15 @@
+Using emacs or mousepad , type program name with .cpp extension
+
+We can use ctrl+alt+t , to open terminal directly
+
+If using emacs first catch the dir , then type emacs in terminal
+
+After typing the program, enter 
+        Esc + X
+        
+        Then type compile
+        Compile using g++ program_name.cpp
+        
+        Again press Esc + X
+        Type shell for O/P of program
+        Run using ./a.out

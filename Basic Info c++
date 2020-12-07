@@ -1,0 +1,13 @@
+1  Function - Prototype is compulsary in  C++ , except "inline" function .
+ 
+2. Static variables can be access by both static function and non - static function .
+            But , static function can access only static variables .
+
+3. Staic variables can be declare inside but , should compulsary initialise outside the class whether of type INT(Book's perspective differ)  .         
+            
+4. By default class members in C++ is PRIVATE .
+
+5. Except FRIEND function , all functions should declare in PUBLIC mode .
+
+6. Private data of class can be access by public member functions . 
+   
