@@ -11,7 +11,6 @@ using namespace std;
 
 int main()
 {
-  
   int m=0 ,upto=0;
   
   for(int i=0;i<5;i++)

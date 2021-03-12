@@ -11,3 +11,23 @@
 
 6. Private data of class can be access by public member functions . 
    
+7. scanf() and printf() are faster than cin, cout .
+
+8. To achieve the speed of printf() and scanf() for cin and cout
+		main(void)
+		{
+			ios_base::sync_with_stdio(false);
+			cin.tie(NULL); 	//or cin.tie(0)
+		}
+
+9. Rather than
+		#include <iostream>
+		#include <vector>
+		#include <algorithm>
+  simply use
+  		#include <bits/stdc++.h>		//this includes all utilities require for competitive programming
+  		using namespace std;
+  		
+10. memset() is used to initialize the whole array to either 0 or -1, other integral value produce unexpected result
+		int ary[5];
+		memset(ary, 0, sizeof(ary));
