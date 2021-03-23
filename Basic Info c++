@@ -25,9 +25,27 @@
 		#include <vector>
 		#include <algorithm>
   simply use
-  		#include <bits/stdc++.h>		//this includes all utilities require for competitive programming
+  		#include <bits/stdc++.h>	//this includes all utilities require for competitive programming
   		using namespace std;
   		
 10. memset() is used to initialize the whole array to either 0 or -1, other integral value produce unexpected result
 		int ary[5];
 		memset(ary, 0, sizeof(ary));
+
+11. vector is a type of a list(or dynamic array) like in Python, where if size is unknown during compile time, data is pushed from back, otherwise as usual as array.
+		#include <vector>
+		#include <iostream>
+		using namespace std;
+
+		main(void)	//by default it's int if not specified
+		{
+			vector<int> vec;
+			for(int i=0; i<5; i++)
+				vec.push_back(i);
+		//vec.begin() Returns an iterator pointing to the first element in the vector
+	//vec.end() Returns an iterator pointing to the theoretical element that follows the last element
+			for (auto it = vec.begin(); it != vec.end(); it++) 
+				cout << *it << " ";
+		}
+
+12. The auto keyword is simply asking the compiler to deduce the type of the variable from the initialization.The auto keyword is a simple way to declare a variable that has a complicated type. For example, you can use auto to declare a variable where the initialization expression involves templates, pointers to functions, or pointers to members.
